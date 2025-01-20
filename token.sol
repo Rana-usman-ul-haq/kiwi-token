@@ -183,7 +183,7 @@ contract Kiwi is Context, IERC20, Ownable {
     uint256 private constant _tTotal = 1000000000 * 10**_decimals;
     string private constant _name = unicode"Kiwi Swap";
     string private constant _symbol = unicode"KIWI";
-    uint256 public maxKiwiLimit = 20000000 * 10 ** decimals();
+    uint256 public maxKiwiLimit = 10000000 * 10 ** decimals();
     uint256 public _juicyBuyFee = 0;
     uint256 public _juicySellFee = 0;
     uint256 public _taxSwapThreshold= 1000000 * 10**_decimals;
